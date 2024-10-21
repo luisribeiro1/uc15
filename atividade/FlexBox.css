@@ -1,0 +1,63 @@
+
+/* CSS reset */
+*{
+    padding: 0px;
+    margin:  0px;
+}
+
+
+
+.container{
+    width: 1000px;
+    background-color: #ddd;
+    margin-left: auto;         /* automaticamente preenche o restante dos PX restante */ 
+    margin-right: auto;
+    display: flex;       /* Altera o modo de display de bloco para flex */
+    flex-direction: row;   /* row (padrão no flex) column */
+    text-align: center;
+    flex-wrap: wrap;       /* quebrar a linha colocando elementos filhos de uma linha*/
+    div{
+        height: 80px;
+        /* width: 25%; */
+    }
+    .box1{
+        background-color: yellow;
+    
+    }
+    .box2{
+        background-color: orange;
+    }
+    .box3{
+        background-color: orangered;
+    }
+    .box4{
+        background-color: red;
+    }
+    .box5{
+        background-color: blueviolet;
+    }
+    .box6{
+        background-color:blue ;
+    }
+    .box7{
+        background-color: cyan;
+    }
+    .box8{
+        background-color: limegreen;
+    }
+}
+.container2{
+ width: 1000px;
+ height: 200px;
+ margin: 50px auto;
+ border: 1px solid blue;
+ display: flex;
+ justify-content: space-evenly;   /* Distribui o Conteúdo horizontalmente no conteiner*/
+ align-items: center;             /* Distribui o Conteúdo verticalmente no conteiner*/
+ div{
+  width: 100px;
+  background-color: aquamarine;
+  text-align: center;
+  height: 70px;  
+ }
+}    

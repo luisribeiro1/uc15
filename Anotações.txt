@@ -1,0 +1,32 @@
+UC15 - Pasta de trabalho
+VsCode - ferramenta de trabalho
+
+HTML - HyperText Markup Language  
+CSS - Cascating Style sheet
+
+o termo !important, sobrepoe erros ou bugs e da certa prioridade para a regra que o completa
+
+Lorem - implemeta um texto aleatório para o preenchimento de texto caso a escrita original não está pronta
+----------------------
+
+Box Model -
+- largura
+- altura
+- borda
+- margem interna, da borda para dentro (padding)
+- margem externa, da borda para fora (margin)
+
+.tags de bloco (box model)
+.tags inline
+ 
+ shift + alt + f : organiza o codigo
+ ctrl + ; : comentario automático
+ shift + alt + SETA BAIXO : copia o selecionado para baixo e sem SETA BAIXO movimenta o codigo selecionado
+
+ GITHUB - Repositório remoto
+ GIT - ferramenta de versionamento
+
+ UC15 -> branch
+
+ 1.git init   (inicializa um repositorio local)
+ 2.git add .  ()
