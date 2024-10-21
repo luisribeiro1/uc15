@@ -1,0 +1,94 @@
+Luis Ribeiro
+luis.cribeiro@sp.senac.br
+
+UC15 - pasta de trabalho
+VSCode - ferramenta
+
+HTML - HyperText Markup Language (Linguagem de marcação de textos)
+CSS - Cascating Style sheet (Folha de estilos em cascata)
+
+
+Três formas de usar CSS:
+- Inline (usando o atributo style)
+- Incorporado (usando a tag style)
+- Linkado (usando a tag link) - recomendado
+
+Grupo 1: cor
+- formas de representar cor em HTML e CSS
+- quando devo usar uma ou outra
+- limitações, vantagens e desvantagens
+
+Escala hexadecimal: 0123456789abcdf (0 é preto e f é branco)
+Escala RGB: 0 a 255 (0 preto e 255 é branco)
+
+Grupo 2: fonte
+- quais os tipos de fontes que podem ser usadas em CSS
+- quando devo usar uma ou outra
+- limitações, vantagens e desvantagens
+
+Grupo 3: unidades de medidas
+- quais as unidades de medidas que podem ser usadas em CSS
+- quando devo usar uma ou outra
+- limitações, vantagens e desvantagens 
+
+===============================
+Box model
+- Largura
+- Altura
+- Borda (border)
+- Margem externa. Da borda para fora (margin)
+- Margem interna. Da borda para dentro (padding)
+
+• Tags de bloco (box model)
+• Tags inline
+
+
+SHIFT + ALT + F 	para identar código
+CTRL + ; 		para comentar / descomentar o código
+
+
+GIT - Ferramenta de versionamento (precisa ser instalado no computador local)
+GITHUB - Repositório remoto
+
+u15 -> branch
+
+NOVO ======================
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git checkout -b nome_da_branch					
+git remote add origin https://github.com/luisribeiro1/uc15.git
+git push -u origin nome_da_branch
+
+
+EXISTENTE ======================
+git remote add origin https://github.com/luisribeiro1/uc15.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

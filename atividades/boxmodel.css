@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* CSS Reset */
+* {
+    /* box-sizing: border-box considera como largura o valor de width
+    sem somar a borda e as margens */
+    box-sizing: border-box;     
+    padding: 0px;
+    margin: 0px;
+}
+
+/* O bloco abaixo é uma regra
+h1 é o seletor de tag
+color é a propriedade
+blue é o valor da propriedade 
+!important é uma declaração de prioridade máxima */
+h1 {
+    color: blue !important;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h2 {
+    color: orange;
+    /* nome da cor */
+    background-color: blue;
+    color: rgb(213, 213, 51);
+    color: rgba(107, 144, 65, 0.544);
+    color: #ff12ba;
+    color: #003049;
+}
+
+/* Box model */
+
+.container {
+    background-color: #ccc;
+
+    /* Margem interna */
+    padding: 20px;
+    /* 20px em todos os lados */
+    /* padding: 20px 30px 40px 10px;       top right bottom left */
+    /* padding: 50px 10px;                 top e bottom, right e left */
+
+    /* padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 80px;
+    padding-bottom: 10px; */
+    div:first-child {
+        background-color: white;
+        padding: 10px;
+        border: 2px solid green;      /* espessura estilo cor */
+        border-radius: 8px;             /* cantos arredondados */
+        width: 600px;                   /* Largura do elemento */
+        height: 100px;                  /* Altura do elemento */
+    }
+
+    div:last-child {
+        background-color: chartreuse;
+        padding: 10px;
+        margin: 20px;
+        border-left: 5px solid #000;
+    }
+}
+
+p{
+    background-color:cadetblue;
+}
+strong{
+    background-color: blue;
+}
