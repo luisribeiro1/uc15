@@ -1,0 +1,65 @@
+/* CSS Reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* O bloco abaixo é uma regra
+h1 é o seletor de tag
+color é a propriedade
+green é o valor da propriedade */
+
+
+h1 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Box Model */
+
+.container {
+    background-color: #ccc;
+    padding: 20px;
+
+    div:first-child {
+        background-color: white;
+        padding: 10px;
+        border: 5px solid green;
+        width: 500px;
+        height: 200px;
+    }
+
+    div:last-child {
+        background-color: aquamarine;
+        padding: 10px;
+        margin: 20px;
+        border-left: 5px solid #000;
+        border-radius: 5px;
+    }
+}
+
+p {
+    background-color: lightblue;
+}
+
+strong {
+    background-color: lightgreen;
+}

@@ -1,0 +1,61 @@
+HTML - HyperText Markup Language
+CSS - Cascating Style Sheet
+
+========================================================================
+
+Tags são usadas para estruturação
+Atributos complementam ou fornecem mais informações sobre a tag
+
+========================================================================
+
+Métodos para usar CSS:
+
+- Inline
+- Incorporado
+- Linkado
+
+========================================================================
+
+!important é uma declaração de prioridade maxima
+
+========================================================================
+
+Box Model
+
+- Altura
+- Largura
+- Borda
+- Margem Externa (Margin)
+- Margem Interna (Padding)
+
+========================================================================
+
+Shift + Alt + F = Identar (organizar) o código
+Ctrl + ; = Comentar toda a linha
+
+========================================================================
+
+Estilos de Borda
+
+- Solid
+- Dotted
+- Dashed
+
+========================================================================
+
+box-sizing: border-box; considera como largura o valor de width
+sem somar as bordas e as margens
+
+========================================================================
+
+Tags de Bloco (Box Model)
+Tags inline
+
+========================================================================
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://medium.com/@MakeComputerScienceGreatAgain/understanding-flexbox-a-comprehensive-guide-992bcd5f04de
+https://mycolor.space/
+https://coolors.co/
+
+========================================================================
