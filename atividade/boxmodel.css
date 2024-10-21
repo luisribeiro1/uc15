@@ -1,0 +1,58 @@
+/* o bloco abaixo é uma regra
+h1 é o seletor
+color é a propriedade
+blue é o valor da propriedade */
+h1 {
+    color: blue !important;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}moto leilao
+
+h2 {
+    color: orange;
+
+}
+
+
+.container {
+    background-color: #ccc;
+    /*margem interna*/
+    /* padding: 20px;
+    /* 20px em todos os lados*/
+    /* padding: 20px 30px 40px 10px;
+    top right bottom left */
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+
+
+
+
+    div:first-child {
+        background-color: green;
+        padding: 10px;
+         border:2px solid #00ff00;    /*espessura estilo cor */
+        border-radius: 8px;         /*cantos arredondados*/
+        width: 500px;               /*largura do elemento*/
+        height: 300px;              /*altura do elemento*/
+
+    }
+
+    div:last-child {
+        background-color: chartreuse;
+        padding: 10px;
+        margin: 20px;
+        border-left: 5px solid #000;
+
+    }
+
+}
+
+p{
+    background-color: cadetblue;
+}
+strong{
+background-color: blue;
+
+}
