@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+    width: 1000px;
+    background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row; /* A row padrão do flex) column */
+    text-align: center; /* Altera o modo de display de bloco para flex */
+    flex-wrap: wrap; /* Quebrar a linha, colocando elementos filhos em outra linha */
+}
+    
+div {
+height: 80px;
+
+    align-items: center;
+    width: 20%;
+}
+.box1 {
+    background-color: red;    
+}
+.box2 {
+    background-color: blue;    
+}
+.box3 {
+    background-color: purple;    
+}
+.box4 {
+    background-color: beige;    
+}
+.box5 {
+    background-color: tan;    
+}
+.box6 {
+    background-color: cadetblue;
+}
+.box7 {
+    background-color: aqua;
+}
+.conteiner2 {
+    width: 1000px;
+    height: 200px;
+    margin: 50px auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+
+    div{
+        width: 100px;
+        background-color: brown;
+        text-align: center;
+        height: 70px;
+    }
+}
