@@ -1,0 +1,55 @@
+/* O bloco abaixo é uma regra
+h1 é o seletor 
+color é a propriedade
+blue é o valor da propriedade
+!importatant é uma declaração de prioridade máxima */
+
+* {
+    /* box-sizing: boder-box; considera como largura o valor de width sem somar a borda e as margens */
+    box-sizing: boder-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    color: blue !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    color: orange;
+}
+
+/*box model*/
+.container {
+    background-color: #ccc;
+
+    padding: 20px;
+    /* padding: 20px 5px 80px 10px; */
+
+    div:first-child {
+        background-color: white;
+        padding: 10px;
+        border: 2px solid green;
+        border-radius: 8px;
+        width: 500px;
+        height: 200px;
+    }
+
+    div:last-child {
+        background-color: chartreuse;
+        padding: 10px;
+        margin: 20px;
+        border-left: 3px solid #000;
+
+    }
+}
+
+p {
+    background-color: cadetblue;
+}
+
+strong {
+    background-color: aquamarine;
+}
