@@ -1,0 +1,78 @@
+/*CSS Reset*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 1000px;
+    background-color: #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;  /* altera o modo do display para flex */
+    /*flex-direction: column; /*row (padrão no flex) column*/
+    flex-wrap: wrap; /*quebra a linha, colocando elementos filhos em outra linha*/
+
+    div{
+        height: 80px;
+        width: 25%;
+        text-align: center;
+    }
+
+    .box1 {
+        background-color: #012a4a;
+
+    }
+
+    .box2 {
+        background-color: #013a63;
+    }
+
+    .box3 {
+        background-color: #01497c;
+
+    }
+
+    .box4 {
+        background-color: #014f86;
+
+    }
+
+    .box5 {
+        background-color: #2a6f97;
+
+    }
+    .box6 {
+        background-color: #48cae4;
+
+    }
+    .box7 {
+        background-color: #90e0ef;
+
+    }
+    .box8 {
+        background-color: #ade8f4;
+
+    }
+
+
+}
+
+.container2{
+    width: 1000px;
+    height: 200px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-evenly; /*distribui o conteudo horizantalmente */
+    align-items: center; /*distribui o conteudo verticalmente */
+
+    div{
+        width: 100px;
+        background-color: #2c7da0;
+        text-align: center;
+        height: 70px;
+
+    }
+}

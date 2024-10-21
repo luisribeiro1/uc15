@@ -1,0 +1,13 @@
+W3 Schools
+
+Tres formas de usar CSS
+- Inline (usando o atributo style)
+- Incorporado (usando a tag style)
+- Linkado (usando a tag link) - recomendado 
+
+Comentar
+Ctrl + ;
+
+Priorizar
+!important (prioridade máxima)
+
