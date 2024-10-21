@@ -1,0 +1,57 @@
+/* O o bloco a baixo é uma regra;
+h1 é o seletor de tag(h1 do html)
+color é a propriedade 
+green é o valor da propriedade
+O important é uma declaração de prioridade máxima 
+
+
+
+
+para cometar em htm = ctrl + ;
+*/
+/*css reset*/
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1 {
+    color: rgb(0, 83, 138);
+    font-family: 'Sixtyfour Convergence', sans-serif;
+    font-size: 40px;
+}
+
+/* Box Model */
+
+.container {
+    background-color: gray;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+
+    div:first-child {
+        background-color: rgb(4, 167, 66);
+        padding: 10px;
+        border: 5px solid green;
+        border-radius:8px ;
+        width: 500px;
+        height: 200px;
+        
+    }
+
+    div:last-child {
+        background-color: rebeccapurple;
+        padding: 10px;
+        margin: 20px;
+    }
+}
+p{
+    background-color: aquamarine;
+
+}
+strong{
+    background-color: blueviolet;
+}
