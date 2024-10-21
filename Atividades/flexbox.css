@@ -1,0 +1,65 @@
+/* CSS reset*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 1000px;
+    background-color: #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;       /* Altera o modo de display de bloco para flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div{
+        height: 80px;
+        width: 25%;
+        text-align: center;
+    }
+
+    .box1{
+        background-color: aquamarine;
+    }
+    .box2{
+        background-color: rgb(114, 156, 142);
+    }
+    .box3{
+        background-color: rgb(46, 126, 99);
+    }
+    .box4{
+        background-color: rgb(29, 95, 73);
+    }
+    .box5{
+        background-color: rgb(12, 77, 55);
+    }
+    .box6{
+        background-color: rgb(52, 105, 107);
+    }
+    .box7{
+        background-color: rgb(52, 189, 143);
+    }
+    .box8{
+        background-color: rgb(165, 221, 202);
+    }
+
+}
+
+.container2{
+    width: 1000px;
+    height: 200px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-evenly;      /* Distribui o conteudo horizontalmente */
+    align-items: center; /* Distribui o conteudo verticalmente */
+
+    div{
+        width: 100px;
+        background-color: rgb(75, 145, 121);
+        text-align: center;
+        height: 70px;
+    }
+
+}

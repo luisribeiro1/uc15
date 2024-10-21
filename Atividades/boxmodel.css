@@ -1,0 +1,65 @@
+/* O comentário abaixo é uma regra
+h1 é o seletor
+color é a propriedade 
+blue é o valor da propriedade 
+!important é uma declaração de prioridade máxima*/
+
+/*css reset*/
+* {
+    /*box-sizing: box-border considera como largura o valor de width sem somar a borda e as margens*/
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    color: orange;
+}
+
+
+
+/* Box model */
+
+.container {
+    background-color: #ccc;
+    padding: 20px;
+
+    /*padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 80px;
+    padding-left: 10px;*/
+
+    div:first-child {
+        background-color: white;
+        padding: 10px;
+        border: 2px solid green;
+        /*espessura estilo cor*/
+        border-radius: 8px;
+        /*cantos arredondados*/
+        width: 500px;
+        /*largura do elemento*/
+        height: 300px;
+        /*altura do elemeto*/
+    }
+
+    div:last-child {
+        background-color: chartreuse;
+        padding: 10px;
+        margin-top: 20px;
+        border-left: 5px solid #000;
+        border-radius: 8px;
+
+    }
+
+}
+
+p {
+    background-color: cadetblue;
+}
