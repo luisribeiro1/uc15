@@ -1,0 +1,37 @@
+/* box model */
+
+/* CSS Reset */
+* {
+  box-sizing: border-box; /*considera como largura o valor de width sem somar as bordas e margens*/
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  background-color: #ccc;
+
+  /* margem interna */
+  padding: 20px; /* 20px em todos os lados */
+  padding: 20px 30px 40px 10px; /*top, right, bottom, left*/
+  /* padding: 50px 20px; [top=bottom, right=left] */
+
+  div:first-child {
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 5px solid black; /*espessura, estilo, cor*/
+    border-radius: 8px; /*cantos arrendondados*/
+    width: 500px; /*largura do elemento*/
+    height: 200px; /*altura do elemento*/
+  }
+
+  div:last-child {
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 20px;
+    border-left: 5px dashed black;
+  }
+}
+
+p{
+    background-color: #0078c971;
+}

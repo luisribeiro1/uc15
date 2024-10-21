@@ -1,0 +1,47 @@
+html - HyperText Markup Language (linguagem de marcação)
+css- Cascading Style Sheet
+
+---
+
+Tags são usadas para estruturação
+Atributos complementam ou fornecem mais informações sobre a tags
+
+---
+
+Métodos para usar CSS:
+
+-Inline
+-Incorporado
+-Linkado
+
+---
+
+!important - declaração de prioridade
+
+---
+
+Box Model
+
+-largura
+-altura
+-borda
+-margem externa/borda fora (margin)
+-margem interna/borda dentro (padding)
+
+---
+
+SHIFT + ALT + F = arrumar código
+
+---
+
+Sites de referencia:
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+---
+
+GIT - Ferramenta de versionamento (precisa ser instalado no computador local
+)
+GITHUB - Repositório remoto
+
+u15 - branch 

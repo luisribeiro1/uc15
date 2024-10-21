@@ -1,0 +1,26 @@
+/* O bloco abaixo é uma regra */
+/* h1 é o seletor */
+
+h1 {
+  color: greenyellow;
+}
+
+h3 {
+  color: rgb(130, 186, 238);
+}
+
+div {
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  color: brown;
+  color: ol;
+}
+
+body {
+  background-color: black;
+}
