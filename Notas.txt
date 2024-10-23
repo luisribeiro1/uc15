@@ -57,5 +57,8 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://medium.com/@MakeComputerScienceGreatAgain/understanding-flexbox-a-comprehensive-guide-992bcd5f04de
 https://mycolor.space/
 https://coolors.co/
+https://arquivo.devmedia.com.br/artigos/devmedia/html-entities.html?_gl=1*bsd23h*_gcl_au*Mzg0OTA4NDUuMTcyNDQzMzAyMw..*_ga*MjAwNDA2OTk2OC4xNzI0NDMzMDI0*_ga_TVLG38EVCW*MTcyOTcxMjU2MC4zLjAuMTcyOTcxMjU2MC42MC4wLjIwOTA5ODU1NTY.
+https://getbootstrap.com/
+https://fonts.google.com/
 
 ========================================================================
