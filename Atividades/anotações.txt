@@ -33,3 +33,8 @@ shift + alt + seta baixo = copia e cola o codigo selecionado
 
 uc15 -> branch
 
+criar 1 arquivo em 'site_exemplo': index.html - css - js - imagens
+
+dentro de 'css' cirar ou arquivo "css"
+no arquivo index criar a estrutura html:5 ou !(tab)
+
