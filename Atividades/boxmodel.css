@@ -35,3 +35,21 @@
 p{
     background-color: #0078c971;
 }
+
+input{
+  border-style: none;
+  border-bottom: 5px solid #f1d301;
+  padding: 5px;
+  font-size: large;
+  margin: 50px;
+  
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+input::placeholder{
+  color: gray;
+  font-style: italic;
+}
