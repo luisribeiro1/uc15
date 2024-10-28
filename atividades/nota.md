@@ -53,7 +53,24 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 GIT- Ferramenta de versionamento(precisa ser instalado no computador)
 GITHUB- Repositorio  remoto 
 
-UC15 -> BRANCH
+UC15 -> BRANCH 
+
+NOVO ======================
+git init				// Inicializa um repositório local
+git add .				// Adicionar arquivos para serem enviados
+
+git commit -m "Aula 21/10/2024 - Flexbox em HTML e CSS"	  // Registra as mudanças
+
+git branch -M main			// Mudar para a branch main (principal)
+git checkout -b nome_da_branch		// Criar uma branch					
+git remote add origin https://github.com/luisribeiro1/uc15.git	// Definir repositório remoto
+git push -u origin nome_da_branch
+
+
+EXISTENTE ======================
+git add .
+git commit -m "Aula xx/xx/xxxx - conteúdo da aula"
+git push
 
 
 
