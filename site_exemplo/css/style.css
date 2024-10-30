@@ -11,6 +11,8 @@
     --cinza_escuro: #222425;
     --branco: #dfe9f1;
     --cinza_claro: #ad9e9e;
+    --cinza_bbb: #bbb;
+    --cinza_ccc: #ccc;
 }
 body{
     font-family: Roboto;
@@ -95,10 +97,85 @@ ul, ol{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
     .card{
         width: 32%;
+        border: 1px solid var(--cinza_bbb);
+        margin-bottom: 30px;
+        text-align: center;
+        border-radius: 8px;
         img{
+            border-radius: 8px 8px 0px 0px;
             width: 100%;
         }   
+        p{
+            font-weight: 300;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        a{
+            color: var(--cinza_escuro);
+            text-decoration: none;
+        }
+        a:hover{
+            color: green;
+        }
+    }
+}
+/* FORMATAÇÂO DAS TABELAS NA PÀGINA SERVIÇOS */
+
+
+.tabela1{
+    border-collapse: separate;
+    width: 100%;
+    margin-bottom: 400px;
+
+    th{
+        background-color: var(--cinza_escuro);
+        color: var(--branco);
+        padding: 8px;
+        text-align: start;
+    }
+    td{
+        background-color: var(--cinza_ccc);
+        padding: 10px;
+    }
+    td:nth-child(3){
+        text-align: end;
+    }
+    th:nth-child(3){
+        text-align: end;
+    }
+}
+
+.tabela2{
+    border-collapse: collapse;
+    width: 100%;
+    th{
+        border-bottom: 5px solid gray;
+        padding: 8px;
+        text-align: start;
+    }
+    td{
+        border-bottom: 2px solid gray;
+        padding: 10px;
+    }
+    td:nth-child(1):before{
+        content: "#";
+    }
+    td:nth-child(3){
+        text-align: end;
+        background-color: #bae1f5;
+    }
+    th:nth-child(3){
+        text-align: end;
+        background-color: #bae1f5;
+    }
+    th:nth-child(4){
+        text-align: center;
+    }
+    td:nth-child(4){
+        text-align: center;
     }
 }
