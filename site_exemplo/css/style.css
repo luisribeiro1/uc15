@@ -12,6 +12,8 @@
   --cinza_escuro: #343a40; /*Cria uma variável*/
   --branco: #fff;
   --cinza_claro: #aaa;
+  --cinza_bbb: #bbb;
+  --cinza_ccc: #ccc;
 }
 
 body {
@@ -28,8 +30,10 @@ footer {
   margin: 0px auto; /**Centralizar o site*/
 }
 
+/* Cabeçalho */
 header {
   background-color: var(--cinza_escuro); /* usar uma variável como cor */
+  color: #fff;
   padding: 10px 0px;
 }
 
@@ -96,12 +100,93 @@ ol {
   }
 }
 
+/* Formatação do home */
+.home {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  .card {
+    width: 32%;
+    border: 1px solid var(--cinza_claro);
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 8px;
+    img {
+      border-radius: 7px 7px 0px 0px; /* top left, top right, bottom right, bottom left */
+      width: 100%;
+    }
+    p {
+      font-weight: 300; /* font-weight usa destaque que vai de 100 a 900 */
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    a {
+      color: var(--cinza_escuro);
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+    }
+  }
+}
+
+/* formatação das tabelas na pagina serviços */
+.tabela1 {
+  border-collapse: separate; /* modo de espaçamento entre as células  */
+  width: 100%;
+  th {
+    background-color: var(--cinza_escuro);
+    color: var(--branco);
+    padding: 8px;
+    text-align: start;
+  }
+  td {
+    background-color: var(--cinza_ccc);
+    padding: 10px;
+  }
+  /* pseudo-classe */
+  td:nth-child(3) {
+    text-align: end;
+  }
+  th:nth-child(3){
+    text-align: end;
+  }
+}
+
+.tabela2{ /* lightblue */
+  border-collapse: collapse;
+  width: 100%;
+  th{
+    text-align: start;
+    border-bottom: 4px solid var(--cinza_escuro);
+    padding: 8px;
+    
+  }
+  td{
+    border-bottom: 1px solid var(--cinza_claro);
+    padding: 10px;
+  }
+  td:nth-child(3),th:nth-child(3) {
+    text-align: end;
+    background-color: lightblue;
+  }
+  td:nth-child(4),th:nth-child(4) {
+    text-align: center;
+  }
+  
+}
+
 /* formatação do footer */
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  i {
+    color: var(--cinza_claro);
+  }
 }
 
 footer a {
