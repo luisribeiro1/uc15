@@ -11,6 +11,8 @@
 :root {
     --cinza_escuro: #343a40;
     --cinza_claro: #aaa;
+    --cinza_bbb: #bbb;
+    --cinza_ccc: #ccc;
     --branco: #fff;
 }
 
@@ -100,14 +102,86 @@ ul, ol {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
     .card {
         width: 32%;
+        border: 1px solid var(--cinza_bbb);
+        margin-bottom: 30px;
+        text-align: center;
+        border-radius: 8px;
         img {
             width: 100%;
+            border-radius: 7px 7px 0px 0px;     /* top-left, top-right, bottom-right, bottom-left */
+        }
+        p {
+            font-weight: 300;       /* Usa carga de 100 a 900 */
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        a {
+            color: var(--cinza_escuro);
+            text-decoration: none;
+        }
+        a:hover {
+            color: orangered;
         }
     }
 }
 
+/* FORMATAÇÃO DAS TABELAS*/
+
+.tabela1 {
+    border-collapse: separate;      /* Espaçamento entre células */
+    width: 100%;
+    th {
+        background-color: var(--cinza_escuro);
+        color: var(--branco);
+        padding: 8px;
+        text-align: start;
+    }
+    td {
+        background-color: var(--cinza_ccc);
+        padding: 10px;
+    }
+    td:nth-child(3) {       /* Pseudo-Classe */
+        text-align: end;
+    }
+    th:nth-child(3) {
+        text-align: end;
+    } 
+}
+
+.tabela2 {
+    border-collapse: collapse;
+    width: 100%;
+    th {
+        background-color: var(--branco);
+        color: var(--cinza_escuro);
+        padding: 8px;
+        text-align: start;
+        border-bottom: 4px solid var(--cinza_claro);
+    }
+    td {
+        background-color: var(--branco);
+        padding: 10px;
+        border-bottom: 2px solid var(--cinza_claro);
+    }
+    td:nth-child(3) {
+        text-align: end;
+        background-color: lightblue;
+    }
+    td:nth-child(4) {
+        text-align: center;
+    }
+    th:nth-child(3) {
+        text-align: end;
+        background-color: lightblue;
+    }
+    th:nth-child(4) {
+        text-align: center;
+    }
+}
 /* FOOTER */
 
 footer {
