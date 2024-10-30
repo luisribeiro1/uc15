@@ -15,6 +15,8 @@
     --cinza_escuro: #343a40;
     --branco: #fff;
     --cinza-claro: #aaa;
+    --cinza_bbb: #bbb;
+    --cinza_ccc: #ccc;
 }
 
 body {
@@ -48,7 +50,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: .9rem;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -77,34 +79,125 @@ p {
     margin-bottom: 10px;
 }
 
-li{
+li {
     line-height: 170%;
 }
 
-ul, ol{
-    margin-left: 15px;
+ul,
+ol {
+    margin-left: 18px;
+    margin-bottom: 10px;
 }
 
-.imagens{
+.imagens {
     display: flex;
     justify-content: space-between;
-    img{
+
+    img {
         width: 32%;
     }
 }
 
 /* formatacao da home */
-.home{
+.home {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    .card{
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+    .card {
         width: 32%;
-        img{
+        border: 1px solid var(--cinza_bbb);
+        margin-bottom: 30px;
+        text-align: center;
+        border-radius: 8px;
+
+        img {
             width: 100%;
+            border-radius: 8px 8px 0px 0px;
+        }
+
+        p {
+            font-weight: 300;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        a {
+            color: var(--cinza_escuro);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: green;
         }
     }
 }
+
+/*FORMATAÇÃO DAS TABELAS NA PÁGINA DE SERVIÇOS*/
+.tabela1 {
+    border-collapse: separate;
+    width: 100%;
+    margin-bottom: 400px;
+
+    th {
+        background-color: var(--cinza_escuro);
+        color: var(--branco);
+        padding: 8px;
+        text-align: start;
+    }
+    th:nth-child(3){
+        text-align: end;
+    }
+
+    td {
+        background-color: var(--cinza_ccc);
+        padding: 10px;
+    }
+    td:nth-child(3){
+        text-align: end;
+    }
+}
+
+.tabela2{
+    border-collapse: collapse;
+    width: 100%;
+
+    th, td{
+        padding: 7px;
+    }
+
+
+    tr:nth-child(1){
+        border-bottom: 2px solid var(--cinza_escuro);
+    }
+
+    th{
+        text-align: start;
+    }
+    th:nth-child(3){
+        text-align: end;
+        background-color: #9ac6eb;
+    }
+    th:nth-child(4){
+        text-align: center;
+    }
+    td{
+        border-bottom: 1px solid var(--cinza-claro);
+
+    }
+
+    td:nth-child(3){
+        text-align: end;
+        background-color: #9ac6eb;
+    }
+    td:nth-child(4){
+        text-align: center;
+    }
+}
+
+
 
 footer {
     display: flex;
