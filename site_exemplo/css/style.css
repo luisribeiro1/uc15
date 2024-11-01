@@ -18,6 +18,7 @@
     --cinza_claro: #aaa;
     --cinza_bbb: #bbb;
     --cinza_ccc: #ccc;
+    --cinza_333: #333;
 }
 
 body {
@@ -237,7 +238,55 @@ ol {
         text-align: center;
     }
 }
+.tabela3{
+    width: 100%;
+    border-collapse: collapse;
+    
+    th{
+        padding: 10px;
+        text-align: start;
+        background-color: var(--cinza_claro);
 
+    }
+
+    td{
+        padding: 10px;
+    }
+    tr:nth-child(odd){                 /* odd = impar, even= par */
+        background-color: var(--cinza_ccc);
+
+    }
+    td:nth-child(3),th:nth-child(3){    /*Pseudo-Classe*/
+        text-align: end;
+    }
+}
+
+/*FORMATAÇÂO DA GALERIA DE FOTOS */
+
+.galeria_destaque{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cinza_333);
+    margin: 30px 0px 10px;
+
+    img{
+        width: 60%;
+
+    }
+}
+
+.galeria_miniaturas{
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 90px;
+        border-radius: 6px;
+
+    }
+    img:houver{       /* quando o mouse estiver sobre a imagem */
+        cursor: pointer;
+    }
+}
 
 
 
