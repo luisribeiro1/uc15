@@ -9,7 +9,8 @@
     /*Eliminar margens internas*/
     box-sizing: border-box;
     /*Usar Tamanos reais*/
-    
+
+
     /* cria variaveis publicas que podem ser usadas em outras regras no CSS*/
 }
 
@@ -18,6 +19,9 @@
     /* cria uma variavel*/
     --branco: #fff;
     --cinza_claro: #aaa;
+    --cinza_bbb: #bbb;
+    --cinza_ccc: #ccc;
+    --cinza_333: #333;
 }
 
 body {
@@ -32,6 +36,7 @@ main,
 footer {
     width: 1024px;
     margin: 0px auto;
+
     /*Centralizar o site*/
 }
 
@@ -77,6 +82,49 @@ nav img {
 
 }
 
+/*formatação galeria de imagens*/
+
+.galeria_destaque {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cinza_333);
+    margin: 30px 0px 10px;
+
+    img {
+        width: 60%;
+
+    }
+}
+
+.galeria_miniaturas {
+    display: flex;
+    justify-content: space-between;
+
+
+    img {
+        width: 90px;
+        border-radius: 6px;
+    }
+
+    img:hover{      /*quando o mouse estiver sobre a imagem*/
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*FOOTER*/
 footer {
     display: flex;
@@ -108,33 +156,162 @@ h2 {
 }
 
 p {
-    line-height:  150%;  /* altura da  linha    */
-    margin-bottom: 10px ;  /* espaçamento entre paragrafo*/
+    line-height: 150%;
+    /* altura da  linha    */
+    margin-bottom: 10px;
+    /* espaçamento entre paragrafo*/
 
 }
-li{
-  line-height: 170%;
+
+li {
+    line-height: 170%;
 }
-ul, ol{
+
+ul,
+ol {
     margin-bottom: 10px;
     margin-left: 18px;
 }
-.imagens{
+
+.imagens {
     display: flex;
     justify-content: space-between;
-    img{
+
+    img {
         width: 32%;
     }
 }
+
 /* FORMATAÇÃO HOME*/
-.home{
+.home {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    .card{
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+    .card {
         width: 32%;
-        img{
+        border: 1px solid var(--cinza_bbb);
+        margin-bottom: 30px;
+        text-align: center;
+        border-radius: 8px;
+
+        img {
             width: 100%;
+            border-radius: 8px 8px 0px 0px;
+            /* top-left --> top_right --> bottom-left --> bottom-right*/
+        }
+
+        p {
+            font-weight: 300;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        a {
+            color: var(--cinza_escuro);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: orange;
         }
     }
+}
+
+/*  formatação das tabelas em serviços*/
+
+.tabela1 {
+    border-collapse: separate;
+    /* Espaçamento entre células */
+    width: 100%;
+
+    th {
+        background-color: var(--cinza_escuro);
+        color: var(--branco);
+        padding: 8px;
+        text-align: start;
+    }
+
+    td {
+        background-color: var(--cinza_ccc);
+        padding: 10px;
+    }
+
+    td:nth-child(3) {
+        /* Pseudo-Classe */
+        text-align: end;
+    }
+
+    th:nth-child(3) {
+        text-align: end;
+    }
+}
+
+.tabela2 {
+    border-collapse: collapse;
+    width: 100%;
+
+    th {
+        background-color: var(--branco);
+        color: var(--cinza_escuro);
+        padding: 8px;
+        text-align: start;
+        border-bottom: 4px solid var(--cinza_claro);
+    }
+
+    td {
+        background-color: var(--branco);
+        padding: 10px;
+        border-bottom: 2px solid var(--cinza_claro);
+    }
+
+    td:nth-child(3) {
+        text-align: end;
+        background-color: lightblue;
+    }
+
+    td:nth-child(4) {
+        text-align: center;
+    }
+
+    th:nth-child(3) {
+        text-align: end;
+        background-color: lightblue;
+    }
+
+    th:nth-child(4) {
+        text-align: center;
+    }
+}
+
+.tabela3 {
+    width: 100%;
+    border-collapse: collapse;
+
+    th {
+        padding: 10px;
+        text-align: start;
+
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    tr:nth-child(odd) {
+        /* tr = toda a tabela , odd ou even*/
+        background-color: var(--cinza_ccc);
+    }
+
+    td:nth-child(3),
+    th:nth-child(3) {
+        text-align: end;
+    }
+
+}
+
+.galeria{
+    
 }
