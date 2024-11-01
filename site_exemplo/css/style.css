@@ -13,7 +13,7 @@
     --cinza_claro: #aaa;
     --cinza_maisclaro: #bbb;
     --cinza_ccc: #ccc;
-    
+    --cinza_333: #333;
 }
 body {
     font-family: Roboto;
@@ -188,5 +188,47 @@ ul,ol{
     }
     td:nth-child(4){
         text-align: center;
+    }
+}
+
+.tabela3 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 400px;
+    th{
+        padding: 10px;
+        text-align: start;
+        background-color: var(--cinza_claro);
+    }
+    td {
+        padding: 10px;
+    }
+    tr:nth-child(odd){
+        background-color: var(--cinza_ccc);
+    }
+    td:nth-child(3), th:nth-child(3){
+        text-align: end;
+    }
+}
+
+.galeria_destaque {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cinza_333);
+    margin: 30px 00px 10px;
+    img{
+        width: 60%;
+    }
+}
+
+.galeria_miniaturas{
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 90px;
+        border-radius: 6px;
+    }
+    img:hover {
+        cursor: pointer;
     }
 }
