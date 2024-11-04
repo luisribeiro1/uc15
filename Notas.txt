@@ -62,3 +62,9 @@ https://getbootstrap.com/
 https://fonts.google.com/
 
 ========================================================================
+
+git add .
+git commit -m "Aula xx/xx/xxxx - conteúdo da aula"
+git push
+
+========================================================================
