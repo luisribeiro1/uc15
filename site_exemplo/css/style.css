@@ -261,6 +261,18 @@ ol {
     }
 }
 
+
+/*Formatação  de cards serviços*/
+.cards_serviços{
+    display: flex;
+    height: 300px;
+    i{
+        font-size: 3rem;
+        color: red;
+    }
+}
+
+
 /*FORMATAÇÂO DA GALERIA DE FOTOS */
 
 .galeria_destaque{

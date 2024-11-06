@@ -74,5 +74,7 @@ git push
 
 
 
-
+JAVASCRIPt
+ Manipulação de DOM - Document Object Model (totalidade de uma pagina que vista pelo JS como um objeto)
+ Elemento ou Objeto -> evento-> ação 
 

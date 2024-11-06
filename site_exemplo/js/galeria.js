@@ -21,7 +21,7 @@ function galeria(){
 
 
 
-
+8
 
 function testeDeevento(){
    const testeJs =document.getElementById("teste")
