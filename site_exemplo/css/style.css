@@ -136,6 +136,8 @@ ol {
     }
 }
 
+
+
 /*FORMATAÇÃO DAS TABELAS NA PÁGINA DE SERVIÇOS*/
 .tabela1 {
     border-collapse: separate;
@@ -221,6 +223,22 @@ ol {
 
     td:nth-child(3), th:nth-child(3){
         text-align: end;
+    }
+}
+
+.cards_servicos{
+    display: flex;
+    margin-top: 3%;
+    i{
+        font-size: 3rem;
+        color: burlywood;
+    }
+    div{
+        text-align: center;
+    }
+    div:nth-child(2){
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
 
