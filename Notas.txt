@@ -63,8 +63,25 @@ https://fonts.google.com/
 
 ========================================================================
 
+JAVASCRIPT
+
+Manipulação do DOM - Document Object Model (Totalidade de uma página
+vista pelo JS como um objeto)
+
+Elemento (Objeto) -> evento -> ação
+
+========================================================================
+
+Sites de Imagens
+
+- pixabay.com
+- unsplash.com
+- canva.com
+
+========================================================================
+
 git add .
-git commit -m "Aula xx/xx/xxxx - conteúdo da aula"
+git commit -m "Aula xx/xx/xxxx - conteúdo da aula" | "Site Limeira - Página inicial - 06/11/2024"
 git push
 
 ========================================================================
