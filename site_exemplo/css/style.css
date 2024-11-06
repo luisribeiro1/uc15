@@ -128,10 +128,7 @@ ul,ol{
 
 /*FOOTER*/
  footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
+
     i{
         color: var(--cinza_claro);
     }
@@ -230,5 +227,23 @@ ul,ol{
     }
     img:hover {
         cursor: pointer;
+    }
+}
+.suas {
+    background-color: red;
+    background-image: url(../cruz-em-gancho.png);
+}
+
+.cards_servicos{
+    display: flex;
+    i{
+        font-size: 3rem;
+    }
+    div{
+        text-align: center;
+    }
+    div:nth-child(2){
+        margin-right: 30px;
+        margin-left: 30px;
     }
 }
