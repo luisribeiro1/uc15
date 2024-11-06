@@ -112,19 +112,6 @@ nav img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*FOOTER*/
 footer {
     display: flex;
@@ -312,6 +299,28 @@ ol {
 
 }
 
-.galeria{
-    
+
+/*  FORMATAÇÃO DE CARDS DE SERVIÇOS*/
+
+.cards_servicos{
+    display: flex;
+    margin-top: 3%;
+    i{
+        font-size: 3rem ;
+        color: burlywood;
+      
+    }
+    div{
+        text-align: center;
+
+    }
+
+    div:nth-child(2){
+        margin-right:30px ;
+        margin-left:30px ;
+    }
 }
+
+/* .galeria{
+    
+} */
