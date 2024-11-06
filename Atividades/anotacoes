@@ -46,6 +46,14 @@ GITHUB - Repositório remoto
 
 u15 - branch
 
+---
+
+JAVASCRIPT
+
+Manipulação do DOM - Document Object Model (totalidade de uma pagina que vista pelo JS como um objeto)
+
+Elemento ou Objeto -> Evento -> Ação
+
 NOVO ======================
 git init // Inicializa um repositório local
 git add . // Adicionar arquivos para serem enviados

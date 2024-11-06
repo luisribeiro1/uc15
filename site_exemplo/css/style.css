@@ -200,6 +200,22 @@ ol {
   }
 }
 
+/* formatação do cards de serviços */
+.cards_servicos{
+  display: flex;
+  i{
+    font-size: 3rem;
+    color: burlywood;
+  }
+  div{
+    text-align: center;
+  }
+  div:nth-child(2){
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
 /* formatação da galeria de fotos */
 .galeria_destaque {
   display: flex;

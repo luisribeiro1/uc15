@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0px; /*Eliminar margens internas*/
+  margin: 0px; /*Eliminar margens externas*/
+  box-sizing: border-box; /*Usar tamanhos reais*/
+}
+
+:root {
+  --azul_lim: #0f2ea1;
+  --branco: #fff;
+}
+
+body {
+  font-family: Roboto;
+}
+
+nav,
+article,
+main,
+footer {
+  width: 1024px;
+  margin: 0px auto; /**Centralizar o site*/
+}
+
+header {
+  background-color: var(--azul_lim);
+  color: var(--branco);
+  padding: 10px 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 90px;
+    border-radius: 10px;
+  }
+  p{
+    font-size: 50px;
+    margin-right: 250px;
+    margin-left: 10px;
+  }
+  a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 1px;
+  }
+  a:hover {
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+}
+
+.imagem_destaque img{
+    width: 100%;
+}
