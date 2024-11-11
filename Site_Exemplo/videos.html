@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Exemplo</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Cabeçalho do Site -->
     <header>
@@ -27,12 +29,38 @@
     <section class="imagem_destaque">
         <img src="imagens/destaque_5.png" alt="uma mesa com uma calculadora e cadernos de anotações">
     </section>
-    
+
     <!-- Área com o Conteúdo Principal da Página -->
-    <article>   <!-- mais usado para paginas internas com conteudo -->
+    <article> <!-- mais usado para paginas internas com conteudo -->
         <h1>Galeria de videos</h1>
-        <section></section>
-        <section></section>
+        <section>
+            <h2> Videos em HTML5</h2>
+
+            <video controls>
+                <source src="imagens/lareira.mp4" type="video/mp4" />
+                seu navegador nâo suporta videos em HTML5
+            </video>
+
+        </section>
+        <section>
+
+            <h2> Vídeo do youtube</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EVHs7jmRdXk?si=66nqnMm7eMvoGPCj"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+
+        <section>
+
+            <h2> Áudio em HTML</h2>
+            <audio controls>
+                <source src="imagens/lo-fi.mp3" type="audio/mp3"/> 
+            </audio>
+
+        </section>
+
     </article>
 
     <!-- Rodapé do Site -->
@@ -48,4 +76,5 @@
         </div>
     </footer>
 </body>
+
 </html>

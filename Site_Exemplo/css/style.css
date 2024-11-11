@@ -207,6 +207,28 @@ ol {
     }
 }
 
+
+
+
+/* formatação de página de videos */
+
+video{
+    width: 100%;
+
+}
+
+iframe{
+    width: 100%;
+    height: 56vh;
+}
+
+
+
+
+
+
+
+
 /*  formatação das tabelas em serviços*/
 
 .tabela1 {
