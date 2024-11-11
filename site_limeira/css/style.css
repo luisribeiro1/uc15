@@ -62,3 +62,30 @@ footer {
 .imagem_site img {
     width: 100%;
 }
+
+iframe {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.historia {
+    margin-bottom: 30px;
+}
+
+.localizacao {
+    margin-bottom: 30px;
+}
+
+
+.pontos img {
+    padding-bottom: 20px;
+    width: 100%;
+}
