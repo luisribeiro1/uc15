@@ -301,7 +301,16 @@ ol {
 }
 
 
+/*Formatação da pagina de videos */
+video{
+    width: 100%;
 
+}
+
+iframe{
+    width: 100%;
+    height: 60vh;
+}
 
 
 
