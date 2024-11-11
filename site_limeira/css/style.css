@@ -58,6 +58,52 @@ main .conteudo {
         font-size: 22px;
     }
 }
+
+.conteudo2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    div{
+        width: 400px;
+        margin-top: 50px;
+        h2{
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        img{
+            width: 400px;
+            border-radius: 10px;
+        }
+    }
+}
+
+.videos_de_limeira{
+    h2{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    
+}
+
+.mapa_da_cidade{
+    h2{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+}
+
+iframe{
+    width: 100%;
+    height: 60vh;
+}
+main p{
+    font-size: 20px;
+}
 /* FOOTER */
 
 footer{
