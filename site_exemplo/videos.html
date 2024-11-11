@@ -37,8 +37,31 @@
     <!-- Area com o conteúdo principal da pagina -->
     <article>
       <h1>Galeria de videos</h1>
-      <section></section>
-      <section></section>
+      <section>
+        <h2>Video em HTML5</h2>
+        <video controls>
+          <source src="imagens/video1.mp4" type="video/mp4" />
+          Seu navegador não suporta videos em HTML5
+        </video>
+      </section>
+      <section>
+        <h2>Video do YouTube</h2>
+        <iframe
+          src="https://www.youtube.com/embed/Xpa8j57Slhs?si=PRT3aTaSnzWuAQsW"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section>
+        <h2>Audio em HTML</h2>
+        <audio controls>
+          <source src="imagens/audio1.mp3" type="audio/mp3">
+        </audio>
+      </section>
     </article>
 
     <!-- Rodapé do site -->

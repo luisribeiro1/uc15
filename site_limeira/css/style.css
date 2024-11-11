@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
@@ -9,6 +10,7 @@
 :root {
   --azul_lim: #0f2ea1;
   --branco: #fff;
+  --azul_claro: #008dd0;
 }
 
 body {
@@ -51,11 +53,46 @@ nav {
     padding: 1px;
   }
   a:hover {
-    font-size: 1.5rem;
     text-decoration: underline;
   }
 }
 
 .imagem_destaque img{
     width: 100%;
+}
+
+article{
+  h1,h2{
+    font-size: 2.5rem;
+    border-bottom: 2px solid var(--azul_claro);
+  }
+  p{
+  padding: 10px 0px;
+  text-indent: 20px;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+iframe{
+  margin: 20px 0px;
+  width: 100%;
+  height: 56vh;
+}
+
+footer {
+  background-color: var(--azul_lim);
+  width: 100%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  i {
+    color: var(--branco);
+  }
+  div{
+    color: var(--branco);
+  }
 }

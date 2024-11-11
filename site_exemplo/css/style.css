@@ -238,6 +238,15 @@ ol {
   }
 }
 
+video{
+  width: 100%;
+}
+
+iframe{
+  width: 100%;
+  height: 56vh;
+}
+
 /* formatação do footer */
 footer {
   display: flex;
