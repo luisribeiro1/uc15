@@ -243,6 +243,17 @@ ul, ol {
     }
 }
 
+/* FORMATAÇÃO DA PÁGINA DE VÍDEOS */
+
+video{
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 56vh;
+}
+
 /* FOOTER */
 
 footer {

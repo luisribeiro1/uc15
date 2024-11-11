@@ -58,6 +58,56 @@ a:hover{
     width: 100%;
 }
 
+/* A CIDADE */
+
+h2{
+    font-size: 1.9rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 170%;
+    margin-bottom: 50px;
+}
+
+.galeria_destaque{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin-top: 30px;
+    padding: 10px 0px;
+    border-bottom: 5px solid #000;
+    img {
+        width: 60%;
+    }
+}
+
+.galeria_miniatura{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    img {
+        width: 90px;
+        border-radius: 6px;
+    }
+    img:hover {
+        cursor: pointer;
+    }
+}
+
+video{
+    width: 100%;
+    padding-top: 50px;
+}
+
+section ol a{
+    padding-right: 18px;
+}
+
+/* FOOTER */
+
 .creditos{
     display: flex;
     justify-content: center;
