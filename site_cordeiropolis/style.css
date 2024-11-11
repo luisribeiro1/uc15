@@ -1,0 +1,59 @@
+/* body {
+    font-family: Roboto;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #666666;
+    color: #ffffff;
+    padding: 10px 20px;
+    
+}
+
+img{
+    width: 200px;
+  height: 200px;
+}
+
+nav{
+    display: flex; /*muda  de bloco para flex*/
+    justify-content: space-evenly; /* distribui horizontalmente os filhos*/
+    align-items: center;  /*alinha centralmente os menus */
+}
+nav a{
+    color: #ffffff; /*Cor do texto*/
+    text-decoration: none; /* Retira o undeline "Sublinhado" */
+    text-transform: capitalize; /*texto  em caixa alta*/
+    font-size: 20px;   /*diminui o tamanho da letra */
+    /* font-weight: ;   carga ou espessura "negrito" */
+ 
+}
+ nav a:hover{               /*Formatar o comportamento hover do link*/
+    text-decoration: underline;   /*incluir  undeline*/
+}
+
+.imagem_destaque img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    i{
+        color: #666666;
+    }
+ }
