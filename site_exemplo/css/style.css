@@ -284,3 +284,11 @@ footer {
     width: 100%;
 
 }
+
+video{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+    height: 56vh;
+}
