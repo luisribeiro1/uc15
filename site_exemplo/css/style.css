@@ -300,6 +300,13 @@ ol {
 }
 
 
+/* FORMATAÇÃO DA PAGINA DE VIDEOS */
+
+iframe{
+ width: 100%;
+ height: 65vh;
+}
+
 
 /*FOOTER*/
 footer {
