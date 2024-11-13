@@ -89,3 +89,34 @@ h2 {
     padding-bottom: 20px;
     width: 100%;
 }
+
+
+.tabela {
+    border-collapse: separate;
+    width: 100%;
+    th{
+        background-color: #ccc;
+        color: var(--branco);
+        padding: 8px;
+        text-align: start;
+    }
+    th:nth-child(3){
+        text-align: end;
+    }
+    td{
+        background-color: #ccc;
+        padding: 10px;
+    }
+    td:nth-child(3){
+        text-align: end;
+    }
+
+}
+
+h1 {
+    text-align: left;
+}
+
+.imagenstops img{
+    width: 100%;
+}
