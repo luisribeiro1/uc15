@@ -102,8 +102,42 @@ video{
     padding-top: 50px;
 }
 
-section ol a{
-    padding-right: 18px;
+ol{
+    padding-left: 18px;
+}
+
+/* DISTÂNCIAS */
+
+.dis-cidades{
+    border-collapse: separate;
+    width: 100%;
+    border: 1px solid black;
+    th{
+        background-color: green;
+        color: white;
+        padding: 10px;
+    }
+    td{
+        background-color: orange;
+        text-align: center;
+        padding: 7px;
+    }
+}
+
+.dis-pontos{
+    border-collapse: separate;
+    width: 100%;
+    border: 1px solid black;
+    th{
+        background-color: green;
+        color: white;
+        padding: 10px;
+    }
+    td{
+        background-color: orange;
+        text-align: center;
+        padding: 7px;
+    }
 }
 
 /* FOOTER */
