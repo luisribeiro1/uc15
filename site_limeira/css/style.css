@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+
 * {
     margin: 0px;
     /*Eliminar margens externas*/
@@ -10,13 +11,23 @@
     /*Usar Tamanos reais*/
 
 }
+
+:root {
+    font-family: Roboto;
+}
+
 nav,
 article,
 main,
 footer {
     width: 1250px;
     margin: 0px auto;
+   
     /*Centralizar o site*/
+}
+
+.destaques div {
+    border: 2px solid black;
 }
 
 /* CABEÇALHO*/
@@ -54,6 +65,7 @@ nav a:hover {
     padding: 5px 10px;
     border-radius: 5px;
 }
+
 nav img {
     border-radius: 8px;
     /*arredonda os cantos*/
@@ -61,47 +73,130 @@ nav img {
     height: 128px;
 
 }
+
 footer {
     background-color: aquamarine;
-    color:black;
+    color: black;
     text-align: center;
     padding: 10px;
     width: 100%;
     bottom: 0;
 }
+.imagem-principal {
+    width: 100%;         /* A imagem ocupa toda a largura do seu contêiner */
+    max-width: 800px;    /* Tamanho máximo da imagem */
+    margin: 20px 0;      /* Espaço acima e abaixo da imagem */
+    display: block;      /* Garante que a imagem fique em bloco, ocupando a largura disponível */
+    margin-left: auto;   /* Centraliza a imagem horizontalmente */
+    margin-right: auto;  /* Centraliza a imagem horizontalmente */
+    border-radius: 8px;  /* Bordas arredondadas, se desejar */
+}
+
+
+
+
+
+
 
 .imagem_destaque img {
     width: 100%;
 }
-.destaques{
+
+.destaques {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+
     .destaque{
         width: 300px;
     }
 }
 
-video{
+video {
     width: 100%;
 
 }
 
-iframe{
+iframe {
     width: 100%;
     height: 60vh;
 }
-.galeria_imagens{
+
+.imagem-galeria img {
     width: 100%;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.prada{
-    width: 100%;
+
+
+p {
+    font-size: 1.2rem;
 }
-.mural{
+
+h2,
+h3 {
+    font-size: 1.8rem;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+
+
+/* Distância */
+
+table {
     width: 100%;
-} 
-.inter{
-    width: 100%;
-}   
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color:#ffffff;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Bairro */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+ul li:nth-child(even) {
+    background-color: #e0e0e0;
+}
