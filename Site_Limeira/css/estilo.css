@@ -95,6 +95,28 @@ nav img {
 
 }
 
+.lista_seguro{
+ 
+    border-bottom:2px solid #E7F59E;
+    font-size: large;
+    padding-bottom: 30px;
+h3{
+    padding-top: 10px;
+}
+}
+
+
+.Lista_bairros{
+    border-bottom:2px solid #E7F59E;
+    font-size: large;
+    padding-bottom: 20px;
+    h1{
+        padding: 0%;
+        margin:10px 0px;
+    }
+    
+}
+
 
 .tabela_municipios{
     border-collapse: separate;
