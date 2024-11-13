@@ -21,26 +21,43 @@ img{
 }
 
 nav{
-    display: flex; /*muda  de bloco para flex*/
-    justify-content: space-evenly; /* distribui horizontalmente os filhos*/
-    align-items: center;  /*alinha centralmente os menus */
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;  
 }
 nav a{
-    color: #ffffff; /*Cor do texto*/
-    text-decoration: none; /* Retira o undeline "Sublinhado" */
-    text-transform: capitalize; /*texto  em caixa alta*/
-    font-size: 20px;   /*diminui o tamanho da letra */
-    /* font-weight: ;   carga ou espessura "negrito" */
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: capitalize; 
+    font-size: 20px;   
+    
  
 }
- nav a:hover{               /*Formatar o comportamento hover do link*/
-    text-decoration: underline;   /*incluir  undeline*/
+ nav a:hover{               
+    text-decoration: underline;   
 }
 
 .imagem_destaque img{
     width: 100%;
     height: 100%;
 }
+
+h1{
+    font-size: 5rem;
+    margin: 20px 0px 20px 0px;
+    color: #00bfff;
+    text-align: center;
+
+}
+
+p{
+    line-height: 150%;
+    justify-content: center;
+    text-align: justify;
+    /* margin: 0px 500px 0px 500px;           */
+    /* margin-bottom: 50px;          */
+}
+
 
 
 
