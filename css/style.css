@@ -11,6 +11,7 @@
 --preto: #000;
 --branco: #fff;
 --cinza_escuro: #343a40; 
+--verde: #008000;
 }
 
 body{
@@ -52,7 +53,7 @@ nav a{
 
 nav a:hover{                            
     text-decoration: underline;
-    color: green;      
+    color: var(--verde)    
 }
 
 nav img{
@@ -63,6 +64,36 @@ nav img{
 .imagem_destaque img{
     width: 100%;
 }
+
+h1{
+    font-size: 2.5rem;
+    margin: 50px 0px 40px;
+    color: var(--cinza_escuro);
+    border-bottom: 2px solid var(--verde);
+}
+
+h2{
+    font-size: 1.8rem;
+    color: var(--cinza_escuro);
+    margin: 40px 0px 15px 0px;
+}
+
+.imagem_limeira img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+p{
+    line-height: 170%;        
+    margin-bottom: 10px;            
+}
+
+
 
 
 
