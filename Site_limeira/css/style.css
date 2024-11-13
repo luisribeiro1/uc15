@@ -9,6 +9,11 @@
 
 :root{
     --branco: #fff;
+    --orange: #ffa500;
+    --brown: #514538;
+    --gray: #b8a99a;
+    --lightgreen: #00d989;
+    --green: #009f57;
 }
 
 body{
@@ -138,6 +143,46 @@ ol{
         text-align: center;
         padding: 7px;
     }
+}
+
+
+/* BAIRROS */
+
+.bairros{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    ul li {
+        padding: 10px;
+        font-size: 1.2rem;
+        
+    }
+    
+    ul li:nth-child(odd) {
+        background-color: #f0f0f0;
+    }
+    
+    ul li:nth-child(even) {
+        background-color: #e0e0e0;
+    }
+}
+
+.br1{
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+}
+
+.br2{
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-right: 2px solid #ddd;
 }
 
 /* FOOTER */
