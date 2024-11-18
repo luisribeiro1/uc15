@@ -76,6 +76,7 @@ h2{
     font-size: 1.8rem;
     color: var(--cinza_escuro);
     margin: 40px 0px 15px 0px;
+    border-bottom: 2px solid var(--verde);
 }
 
 .imagem_limeira img{
