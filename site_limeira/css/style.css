@@ -22,7 +22,7 @@ main,
 footer {
     width: 1250px;
     margin: 0px auto;
-   
+
     /*Centralizar o site*/
 }
 
@@ -82,35 +82,82 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
 .imagem-principal {
-    width: 100%;         /* A imagem ocupa toda a largura do seu contêiner */
-    max-width: 800px;    /* Tamanho máximo da imagem */
-    margin: 20px 0;      /* Espaço acima e abaixo da imagem */
-    display: block;      /* Garante que a imagem fique em bloco, ocupando a largura disponível */
-    margin-left: auto;   /* Centraliza a imagem horizontalmente */
-    margin-right: auto;  /* Centraliza a imagem horizontalmente */
-    border-radius: 8px;  /* Bordas arredondadas, se desejar */
+    width: 100%;
+    /* A imagem ocupa toda a largura do seu contêiner */
+    max-width: 800px;
+    /* Tamanho máximo da imagem */
+    margin: 20px 0;
+    /* Espaço acima e abaixo da imagem */
+    display: block;
+    /* Garante que a imagem fique em bloco, ocupando a largura disponível */
+    margin-left: auto;
+    /* Centraliza a imagem horizontalmente */
+    margin-right: auto;
+    /* Centraliza a imagem horizontalmente */
+    border-radius: 8px;
+    /* Bordas arredondadas, se desejar */
 }
 
 
 
 
 
+/* Home  */
 
 
 .imagem_destaque img {
     width: 100%;
 }
 
+
+
+
+
+
 .destaques {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 50px;
+    
 
-    .destaque{
-        width: 300px;
+    .card {
+        width: 32%;
+        border: 1px solid #ddd;
+        margin-bottom: 30px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px rgba(255, 18, 129, 0.1);
+
+
+        img {
+            width: 100%;
+            border-radius: 6px 6px 0px 0px;
+            /*top-left top-right bottom left bottom right*/
+        }
+
+        p {
+            font-weight: 300;
+            /* font-weight usa carga  que vai de 100 a 900*/
+            margin-left: 10px;
+            margin-right: 10px;
+
+        }
+
+        a {
+            color: var(--cinza_escuro);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
     }
 }
+
+ /* cidade */
 
 video {
     width: 100%;
@@ -127,8 +174,9 @@ iframe {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
+.links-relevantes{
+    margin-left: 600px;
+}
 
 p {
     font-size: 1.2rem;
@@ -139,9 +187,6 @@ h3 {
     font-size: 1.8rem;
 }
 
-ul {
-    padding-left: 18px;
-}
 
 
 
@@ -151,7 +196,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background-color:#ffffff;
+    background-color: #ffffff;
 }
 
 table,
@@ -181,22 +226,47 @@ tr:hover {
 
 /* Bairro */
 
-ul {
+.tb {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
-ul li {
+.tb li {
     padding: 10px;
     font-size: 16px;
     border-bottom: 1px solid #ddd;
 }
 
-ul li:nth-child(odd) {
+.tb li:nth-child(odd) {
     background-color: #f0f0f0;
 }
 
-ul li:nth-child(even) {
+.tb li:nth-child(even) {
     background-color: #e0e0e0;
+}
+
+
+/* pontos turisticos  */
+
+.ponto-turistico {
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.ponto-turistico h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ponto-turistico img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }

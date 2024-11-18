@@ -126,14 +126,15 @@ ol {
 }
 
 /*Formatação da HOme*/
-.home {
+.destaques{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 80px;
+    
 
-    .card {
+    .card{
         width: 32%;
         border: 1px solid var(--cinza_bbb);
         margin-bottom: 30px;
