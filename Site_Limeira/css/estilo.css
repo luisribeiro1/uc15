@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   
+
 
 
 
@@ -19,6 +19,7 @@
     --verde_escuro: #274029;
     --laranja: #F7A072;
     --branco: #fff;
+    --cinza_claro: #bbb;
 
 }
 
@@ -76,12 +77,17 @@ nav img {
     border-radius: 16px;
 }
 
-.tabela_cidades{
+.tabela_cidades {
+    border-bottom: 2px solid var(--cinza_claro);
     border-collapse: separate;
     width: 100%;
 
+    h2 {
+        border-bottom: 2px solid var(--cinza_claro);
+    }
+
     th {
-        background-color:var(--jade);
+        background-color: var(--jade);
         color: var(--verde_claro);
         padding: 8px;
         text-align: start;
@@ -95,35 +101,84 @@ nav img {
 
 }
 
-.lista_seguro{
- 
-    border-bottom:2px solid #E7F59E;
+.lista_seguro {
+
+    border-bottom: 2px solid var(--cinza_claro);
     font-size: large;
     padding-bottom: 30px;
-h3{
-    padding-top: 10px;
-}
+
+    h3 {
+        padding-top: 10px;
+    }
 }
 
 
-.Lista_bairros{
-    border-bottom:2px solid #E7F59E;
+.Lista_bairros {
+    border-bottom: 2px solid var(--cinza_claro);
     font-size: large;
     padding-bottom: 20px;
-    h1{
+
+    h1 {
         padding: 0%;
-        margin:10px 0px;
+        margin: 10px 0px;
     }
-    
+
+}
+
+.pontos_turisticos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+    .card_fim {
+        width: 32%;
+        margin-bottom: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    h2 {
+        border-bottom: var(--cinza_claro) solid 3px;
+    }
+
+    .card {
+        width: 32%;
+        margin-bottom: 30px;
+        text-align: center;
+
+        img {
+            width: 80%;
+            border-radius: 10px;
+            border: #E7F59E solid 3px;
+
+        }
+    }
+}
+
+.vista {
+    margin: 15px 0px 15px 0px;
 }
 
 
-.tabela_municipios{
+
+.tabela_municipios {
+
+    border-bottom: 2px solid var(--cinza_claro);
     border-collapse: separate;
     width: 100%;
 
+    h2 {
+        border-bottom: 2px solid var(--cinza_claro);
+    }
+
     th {
-        background-color:var(--jade);
+        background-color: var(--jade);
         color: var(--verde_claro);
         padding: 8px;
         text-align: start;
@@ -137,38 +192,55 @@ h3{
 
 }
 
-.info_cidade{
+.info_cidade {
+    margin-top: 20px;
     margin-right: auto;
     padding-bottom: 6px;
     word-spacing: 2px;
-    line-height: 260%;
-    img{
+    line-height: 200%;
+
+    img {
         width: 100%;
         height: 45vh;
     }
-    h1,h2,h3,h4,h5,p{
+    h1{
+        margin: 10px 0px 20px 0px;
+        
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
         padding-left: 15px;
         padding-bottom: 5px;
         margin: 0%;
-        
+
     }
 }
-.videos_cidade{
+
+.videos_cidade {
+
     width: 100%;
 }
 
 
 
-.imformações_de_index{
+.imformações_de_index {
+    border-bottom: 2px solid var(--cinza_claro);
     padding-top: 0%;
     margin-top: 0%;
-    h2{
+
+    h2 {
         padding-top: 0px;
-        margin-top:0px ;
+        margin-top: 0px;
     }
-    h3{
-      padding-top: 5px;  
+
+    h3 {
+        padding-top: 5px;
     }
+
 }
 
 footer {
@@ -185,6 +257,7 @@ footer {
 .imagem_destaque img {
     width: 100%;
     margin-bottom: auto;
+    border-bottom: 4px solid var(--verde_claro);
 }
 
 h1 {
@@ -225,4 +298,3 @@ p {
     margin-bottom: 80px;
 
 }
-
