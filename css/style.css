@@ -12,6 +12,7 @@
 --branco: #fff;
 --cinza_escuro: #343a40; 
 --verde: #008000;
+--verde_translucido: #00800050;
 }
 
 body{
@@ -92,6 +93,31 @@ h2{
 p{
     line-height: 170%;        
     margin-bottom: 10px;            
+}
+
+li{
+    line-height: 170%;
+}
+
+ul, ol{
+    margin-bottom: 10px;
+    margin-left: 18px;
+} 
+
+.tabela_distancias{
+    border-collapse: separate;
+    width: 100%;
+    
+    th{
+        background-color: var(--verde);
+        color: var(--branco);
+        padding: 8px;
+        text-align: start;
+    }
+    td{
+        background-color: var(--verde_translucido);
+        padding: 10px;
+    }
 }
 
 
