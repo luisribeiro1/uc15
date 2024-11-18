@@ -129,7 +129,6 @@ nav img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 50px;
     margin-bottom: 80px;
 
     .card_fim {
@@ -139,7 +138,6 @@ nav img {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-top: 50px;
         margin-bottom: 80px;
     }
 
@@ -230,8 +228,8 @@ nav img {
 .imformações_de_index {
     border-bottom: 2px solid var(--cinza_claro);
     padding-top: 0%;
-    margin-top: 0%;
-
+    margin-top: 56px;
+    margin-left: 40px;
     h2 {
         padding-top: 0px;
         margin-top: 0px;
@@ -256,7 +254,7 @@ footer {
 
 .imagem_destaque img {
     width: 100%;
-    margin-bottom: auto;
+    margin-bottom: 20px;
     border-bottom: 4px solid var(--verde_claro);
 }
 
@@ -298,3 +296,18 @@ p {
     margin-bottom: 80px;
 
 }
+.informaçoes_bairros{
+    margin-left: 52px;
+    h1{
+        margin-top: 50px;
+    }
+}
+li {
+    line-height:170% ;
+}
+ul,
+ol {
+    margin-bottom: 10px;
+    margin-left: 18px;
+}
+
