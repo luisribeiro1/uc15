@@ -207,6 +207,7 @@ ol {
 .tabela3{
     width: 100%;
     border-collapse: collapse;
+    
     th{
         padding: 10px;
         text-align: start;

@@ -29,6 +29,84 @@ h1{
 
 }
 
+.distancia{
+    h2{
+        font-size: 1.8rem;
+        color: grey;
+        margin: 40px 0px 15px 0px;
+        border-bottom: 1px solid grey;
+    } 
+}
+
+.tabela1{
+    border-collapse: separate;
+    width: 100%;
+    margin-bottom: 100px;
+
+        th{
+            text-align: center;
+            background-color: #939f5c;
+            color: black;
+            padding: 8px;
+        }
+
+        td{
+            background-color: #ecd9aa;
+            text-align: center;
+            padding: 8px;
+            font-size: small;
+        }
+    }
+
+.tabela2{
+    border-collapse: collapse;
+    width: 100%;
+
+        th{
+            text-align: center;
+            background-color: #939f5c;
+            color: black;
+            padding: 8px;
+        }
+
+        td{
+            text-align: center;
+            padding: 8px;
+            font-size: small;
+        }
+
+        tr:nth-child(odd){
+            background-color:  #ecd9aa;
+        }
+
+    }
+
+.topico{
+    background-color: antiquewhite;
+    padding: 10px;
+
+    li{
+        font-weight: bold;
+    } 
+
+}
+
+.topico2{
+    background-color: antiquewhite;
+    padding: 10px;
+
+    li{
+        font-weight: bold;
+    } 
+
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+    margin-top: 35px;
+}
+
 h2{
     font-size: 1.8rem;
     color: grey;
@@ -52,13 +130,16 @@ nav a{
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: bold;
+    padding: 1px;
 }
 
 nav a:hover{
     text-decoration: underline;
     color: #bbce8a;
+
+    font-size:medium;
 }
 
 nav img{
