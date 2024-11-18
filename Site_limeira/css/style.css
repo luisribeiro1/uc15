@@ -26,7 +26,7 @@ nav, article, main, footer {
 }
 
 header{
-    background-color: orange;
+    background-color: var(--orange);
     color: black;
     padding: 10px;
 }
@@ -81,10 +81,9 @@ p{
 .galeria_destaque{
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #555;
     margin-top: 30px;
-    padding: 10px 0px;
-    border-bottom: 5px solid #000;
+    margin-bottom: 5px;
     img {
         width: 60%;
     }
@@ -93,7 +92,9 @@ p{
 .galeria_miniatura{
     display: flex;
     justify-content: space-around;
-    background-color: #333;
+    background-color: #555;
+    padding-top: 5px;
+    padding-bottom: 5px;
     img {
         width: 90px;
         border-radius: 6px;
@@ -117,14 +118,15 @@ ol{
 .dis-cidades{
     border-collapse: separate;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid var(--brown);
+    margin-top: 30px;
     th{
-        background-color: green;
+        background-color: var(--green);
         color: white;
         padding: 10px;
     }
     td{
-        background-color: orange;
+        background-color: var(--orange);
         text-align: center;
         padding: 7px;
     }
@@ -133,14 +135,15 @@ ol{
 .dis-pontos{
     border-collapse: separate;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid var(--brown);
+    margin-top: 30px;
     th{
-        background-color: green;
+        background-color: var(--green);
         color: white;
         padding: 10px;
     }
     td{
-        background-color: orange;
+        background-color: var(--orange);
         text-align: center;
         padding: 7px;
     }
@@ -153,6 +156,7 @@ ol{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    margin-top: 30px;
     ul {
         list-style-type: none;
         padding: 0;
@@ -166,24 +170,24 @@ ol{
     }
     
     ul li:nth-child(odd) {
-        background-color: #f0f0f0;
+        background-color: var(--green);
     }
     
     ul li:nth-child(even) {
-        background-color: #e0e0e0;
+        background-color: var(--orange);
     }
 }
 
 .br1{
-    border-top: 2px solid #ddd;
-    border-bottom: 2px solid #ddd;
-    border-left: 2px solid #ddd;
+    border-top: 2px solid var(--brown);
+    border-bottom: 2px solid var(--brown);
+    border-left: 2px solid var(--brown);
 }
 
 .br2{
-    border-top: 2px solid #ddd;
-    border-bottom: 2px solid #ddd;
-    border-right: 2px solid #ddd;
+    border-top: 2px solid var(--brown);
+    border-bottom: 2px solid var(--brown);
+    border-right: 2px solid var(--brown);
 }
 
 /* PONTOS TURÍSTICOS */
@@ -194,12 +198,31 @@ ol{
 
 /* FOOTER */
 
+footer{
+    width: 100%;
+    margin-top: 30px;
+    background-color: var(--orange);
+}
+
 .creditos{
     display: flex;
     justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
 }
 
 .redes_sociais{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+i{
+    color: #fff;
+    margin-left: 20px;
+}
+
+i:hover{
+    color: lightgreen;
 }

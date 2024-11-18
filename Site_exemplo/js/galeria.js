@@ -3,7 +3,7 @@
 
 function galeria(){
     // Selecionar todas as imagens que estão dentro da classe galeria_miniaturas
-    // miniaturas será um arrey de imagens
+    // miniaturas será um array de imagens
     var miniaturas = document.querySelectorAll(".galeria_miniatura img")
     // console.log(miniaturas);
     miniaturas.forEach(
