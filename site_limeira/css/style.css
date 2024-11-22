@@ -192,3 +192,17 @@ p{
     margin-top: 50px;
     margin-bottom: 80px;
 }
+
+.imagenst{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+    img{
+        width: 32%;
+    }
+}
+.patio{
+    height: 217px;
+}
