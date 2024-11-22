@@ -63,7 +63,7 @@ git commit -m "Aula 21/10/2024 - Flexbox em HTML e CSS"	  // Registra as mudanç
 
 git branch -M main			// Mudar para a branch main (principal)
 git checkout -b nome_da_branch		// Criar uma branch					
-git remote add origin https://github.com/luisribeiro1/uc15.git	// Definir repositório remoto
+git remote add origin https://github.com/Jinacio99/site_limeira	// Definir repositório remoto
 git push -u origin nome_da_branch
 
 
@@ -78,3 +78,14 @@ JAVASCRIPt
  Manipulação de DOM - Document Object Model (totalidade de uma pagina que vista pelo JS como um objeto)
  Elemento ou Objeto -> evento-> ação 
 
+===================================== 
+DEPLOY - PUBLICAÇÃO
+
+Dominio ou subdominio       (endereço de acesso)
+hospedagem                   (local de armazenamento de arquivos )
+
+
+
+Hospedagem  no GitHUb
+Ter uma conta no GitHUB
+Criar um Repositório
