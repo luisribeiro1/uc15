@@ -254,6 +254,42 @@ iframe{
     height: 56vh;
 }
 
+/* FORMATAÇÃO DO FORMULARIO */
+
+.contato{
+    label{
+        display: block;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+    input[type=text],
+    input[type=email],
+    textarea{
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid var(--cinza_bbb);
+    }
+    select{
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid var(--cinza_bbb);
+    }
+    input[type=submit]{
+        background-color: var(--cinza_333);
+        color: var(--branco);
+        padding: 10px;
+        border-radius: 5px;
+        border-style: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        margin-top: 30px;
+    }
+    input[type=submit]:hover{
+        background-color: var(--cinza_claro);
+    }
+}
+
 /* FOOTER */
 
 footer {
