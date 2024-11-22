@@ -54,6 +54,29 @@ Manipulação do DOM - Document Object Model (totalidade de uma pagina que vista
 
 Elemento ou Objeto -> Evento -> Ação
 
+---
+
+DEPLOY - PUBLICAÇÃO
+
+- domínio (endereço de acesso)
+- hospedagem (local de armazenamento de arquivos)
+
+Hospedagem no GitHub
+
+- Ter uma conta no GitHub
+- Criar um repositório
+- Configurar o GIT
+
+git init
+git branch -M main
+git remote add origin [url do repositório]
+
+git add .
+git commit -m "Aula xx/xx/202x - Conteúdo do aula"
+git push -u origin main
+
+---
+
 NOVO ======================
 git init // Inicializa um repositório local
 git add . // Adicionar arquivos para serem enviados
