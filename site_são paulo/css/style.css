@@ -180,3 +180,146 @@ ol {
 
 
 }
+
+/*FORMATAÇÃO DA TABELA NA PAGINA BAIRROS*/
+.tabela {
+  border-collapse: separate;    /*Modo de espaçamento entre as celulas*/
+  width: 100%;
+  
+
+  
+
+
+
+  th{
+    background-color: var(--cinza_escuro);
+    color: var(--branco);
+    padding: 8px;
+    text-align: start;
+
+  }
+  th:nth-child(3){
+    text-align: end;
+  } 
+  td{
+    background-color: var(--cinza_ccc);
+    padding: 10px;
+  }
+  td:nth-child(3){          /*pseudo classe*/ 
+    text-align: end;
+  }
+}
+
+
+/* FORMATAÇÃO DA TABELA DA PAGINA DISTANCIAS */
+
+.Tabela2{
+  border-collapse: separate;       /*modo de espaçamento entre as celulas*/
+  width: 100%;
+
+  th{
+    background-color: var(--cinza_escuro);
+    color: var(--branco);
+    padding: 8px;
+    text-align: start;
+  }
+  th:nth-child(3){
+    text-align: end;
+  }
+ td{
+  background-color: var(--cinza_ccc);
+ }
+td:nth-child(3){
+  text-align: end;
+
+}
+
+
+
+}
+
+
+
+
+.Tabela3{
+  border-collapse: separate;       /*modo de espaçamento entre as celulas*/
+  width: 100%;
+
+  th{
+    background-color: var(--cinza_escuro);
+    color: var(--branco);
+    padding: 8px;
+    text-align: start;
+  }
+  th:nth-child(3){
+    text-align: end;
+  }
+ td{
+  background-color: var(--cinza_ccc);
+ }
+td:nth-child(3){
+  text-align: end;
+
+}
+
+
+
+}
+
+
+/* FORMATAÇÃO DOS PONTOS TURISTICOS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+
+  i {
+    color: var(--cinza_claro);
+  }
+}
