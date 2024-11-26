@@ -248,18 +248,17 @@ h3{
     }
 
     .mandatos{
-        td:nth-child(3){
-            
-        }
+
     }
 
     th:nth-child(2){
-        width: 100%;
+        width: 20%;
     }
 
     td{
         background-color: #c5be99;
-        padding: 10px;
+        padding: 20px;
+        width: 25%;
     }
 }
 
