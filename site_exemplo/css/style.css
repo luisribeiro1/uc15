@@ -126,7 +126,7 @@ ol {
 }
 
 /*Formatação da HOme*/
-.destaques{
+.home{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -267,6 +267,7 @@ ol {
 .cards_serviços{
     display: flex;
     height: 300px;
+    text-align: center;
     i{
         font-size: 3rem;
         color: red;
@@ -296,7 +297,7 @@ ol {
         border-radius: 6px;
 
     }
-    img:houver{       /* quando o mouse estiver sobre a imagem */
+    img:hover{       /* quando o mouse estiver sobre a imagem */
         cursor: pointer;
     }
 }
@@ -361,5 +362,71 @@ footer {
 
     i {
         color: var(--cinza_claro);
+    }
+}
+
+
+
+
+/* Versão responsiva com media queries */
+@media screen and (max-width: 600px) {
+
+    nav,
+    article,
+    main,
+    footer {
+        width: 100%;
+
+
+    }
+    nav{
+        display: block;         /* tirar o flex e voltar pra o block*/
+        text-align: center;   /*centralizar*/
+        span{
+            display: block;
+        }
+    }
+    article,main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .imagens {
+        display: block;
+        justify-content: space-between;
+    
+        img {
+            width: 100%;
+    
+        }
+    }
+
+    .home{
+        display: block;
+        .card{
+            width: 100%;
+        }
+        
+    }
+
+    .cards_serviços{
+        display: block;
+        height: auto;
+
+    }    
+
+    footer {
+        padding: 0px 10px 10px 10px;
+
+    }
+    .galeria_miniaturas{
+        display: block;
+        img{
+            width: 49%;
+           
+        }
+        
+    }
+    iframe{
+          height: 30vh;
     }
 }
