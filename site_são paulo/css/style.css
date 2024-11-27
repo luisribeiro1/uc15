@@ -267,17 +267,26 @@ td:nth-child(3){
 }
 
 
-/* FORMATAÇÃO DOS PONTOS TURISTICOS */
+/* FORMATAÇÃO DA POPULAÇÃO*/
+.imagem_populacao{
+ width: 100%;
+ height: 30vh;
+}
+
+  
+  
 
 
-
-
-
-
-
-
-
-
+/* FORMATAÇÃO LOCALIZAÇÃO */
+iframe{
+  width: 100%;
+  height: 35vh;
+ }
+ 
+ 
+ 
+ 
+ 
 
 
 
