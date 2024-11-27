@@ -63,6 +63,40 @@ a:hover{
     width: 100%;
 }
 
+.home {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    .card {
+        width: 32%;
+        border: 1px solid var(--brown);
+        margin-bottom: 30px;
+        text-align: center;
+        border-radius: 8px;
+        background-color: var(--green);
+        h3 {
+            border-bottom: 3px solid var(--brown);
+            background-color: var(--orange);
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        p {
+            font-weight: 300;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: lightgreen;
+        }
+    }
+}
+
 /* A CIDADE */
 
 h2{
@@ -116,13 +150,13 @@ ol{
 /* DISTÂNCIAS */
 
 .dis-cidades{
-    border-collapse: collapse;
+    border-collapse: separate;
     width: 100%;
     border: 1px solid var(--brown);
     margin-top: 30px;
     th{
         background-color: var(--orange);
-        color: white;
+        color: black;
         padding: 10px;
     }
     td{
@@ -133,22 +167,21 @@ ol{
 }
 
 .dis-pontos{
-    border-collapse: collapse;
+    border-collapse: separate;
     width: 100%;
     border: 1px solid var(--brown);
     margin-top: 30px;
     th{
-        background-color: var(--green);
-        color: white;
+        background-color: var(--orange);
+        color: black;
         padding: 10px;
     }
     td{
-        background-color: var(--orange);
+        background-color: var(--green);
         text-align: center;
         padding: 7px;
     }
 }
-
 
 /* BAIRROS */
 
@@ -196,6 +229,43 @@ ol{
     width: 1024px;
 }
 
+/* POPULAÇÃO */
+
+.populacao{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    margin-top: 30px;
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    ul li {
+        padding: 10px;
+        font-size: 1.2rem;
+        
+    }
+    ul li:nth-child(odd) {
+        border-bottom: 1px solid var(--brown);
+    }
+    
+    ul li:nth-child(even) {
+        border-bottom: 1px solid var(--brown);
+    }
+}
+
+.pop2{
+    text-align: end;
+}
+
+/* LOCALIZAÇÃO */
+
+.mapa{
+    margin-top: 30px;
+}
+
 /* FOOTER */
 
 footer{
@@ -225,4 +295,44 @@ i{
 
 i:hover{
     color: lightgreen;
+}
+
+@media screen and (max-width:600px) {
+    
+    nav, article, main, footer {
+        width: 100%;
+    }
+
+    article {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav img {
+        width: 100%;
+    }
+
+    nav span div a {
+        display: inline-block;
+    }
+
+    nav span .menu {
+        text-align: center;
+    }
+
+    .home {
+        display: block;
+        .card {
+            width: 100%;
+        }
+    }
+
+    footer {
+        padding: 0px 10px 10px 10px;
+    }
+   
 }

@@ -301,3 +301,62 @@ footer {
         color: var(--cinza_claro);
     }
 }
+
+/* VERSÃO RESPONSIVA */
+
+@media screen and (max-width: 600px){
+
+    nav, article, main, footer {
+        width: 100%;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+        span{
+            display: block;
+        }
+        img {
+            width: 70%;
+        }
+    }
+
+    article, main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .imagens {
+        display: block;
+        img {
+            width: 100%;
+        }
+    }
+
+    .home {
+        display: block;
+        .card {
+            width: 100%;
+        }
+    }
+
+    .cards_servicos {
+        display: block;
+    }
+
+    .galeria_miniatura {
+        display: block;
+        img {
+            width: 49%;
+        }
+    }
+
+    iframe {
+        height: 30vh;
+    }
+
+    footer {
+        padding: 0px 10px 10px 10px;
+    }
+
+}
