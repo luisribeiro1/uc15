@@ -331,3 +331,70 @@ iframe{
         background-color: var(--cinza-claro);
     }
 }
+
+/*versao responsiva com media queries*/
+@media screen and (max-width: 600px) {
+
+    nav,article,main,footer {
+    width: 100%;  
+}
+
+nav {
+    display: block;
+    text-align: center;
+    span{
+        display: block;
+    }
+
+    img{
+        width: 50%;
+    }
+}
+
+article{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imagens {
+    display: block;
+    justify-content: space-between;
+
+    img {
+        width: 100%;
+    }
+}
+
+.home{
+    display: block;
+
+    .card{
+        width: 100%;
+    }
+}
+
+.cards_servicos{
+    display: block;
+    height: auto;
+}
+
+.galeria_miniaturas{
+    display: block;
+    margin-bottom: auto;
+
+    img{
+        width: 49%;
+
+    }
+}
+
+iframe{
+    height: 30vh;
+}
+
+
+footer {
+    padding: 0px 10px 10px 10px;
+}
+
+}
