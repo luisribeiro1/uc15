@@ -9,6 +9,7 @@
     /*Eliminar margens internas*/
     box-sizing: border-box;
     /*Usar Tamanos reais*/
+  
 
 
     /* cria variaveis publicas que podem ser usadas em outras regras no CSS*/
@@ -343,6 +344,103 @@ iframe{
     }
 }
 
-/* .galeria{
-    
-} */
+/* versão responsiva  com media querys*/
+
+@media screen and (max-width: 600px){
+    nav,
+article,
+main,
+footer {
+    width: 100%;
+  
+
+}
+
+nav {
+ display: block;             /*  tira o flex e voltar para block */
+  text-align: center;       /* Centralizar */
+ span{                         /*envia o texto para baixo*/
+    display: block;
+ }
+ img{
+    width:50% ;
+ }
+
+}
+
+article{
+    padding-left: 12px;
+    padding-right: 12px;
+   }
+
+   .imagens {
+    display: block;
+    justify-content: space-between;
+
+    img {
+        width: 100%;
+    }
+}
+footer {
+  padding: 0px 10px 10px 10px;
+}
+.home{
+    display: block;
+    padding: 5px;
+    .card{
+        width: 100%;
+    }
+}
+
+.cards_servicos{
+    display: block;
+}
+
+.galeria_miniaturas {
+    display: block;
+    img {
+        width: 49%;
+        border-radius: 6px;
+    }
+
+}
+
+iframe{
+    height: 30vh;
+}
+}
+
+.contato{
+    label{
+        display: block;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+    input[type=text],
+    input[type=email],
+    textarea{
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid var(--cinza_bbb);
+    }
+    select{
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid var(--cinza_bbb);
+    }
+    input[type=submit]{
+        background-color: var(--cinza_333);
+        color: var(--branco);
+        padding: 10px;
+        border-radius: 5px;
+        border-style: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        margin-top: 30px;
+    }
+    input[type=submit]:hover{
+        background-color: var(--cinza_claro);
+    }
+    margin-bottom: 25px;
+}

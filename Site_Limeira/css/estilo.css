@@ -81,7 +81,9 @@ nav img {
     border-bottom: 2px solid var(--cinza_claro);
     border-collapse: separate;
     width: 100%;
-
+h1{
+    width: 100%;
+}
     h2 {
         border-bottom: 2px solid var(--cinza_claro);
     }
@@ -92,11 +94,13 @@ nav img {
         padding: 8px;
         text-align: start;
         font-size: larger;
+        padding: 4px;
     }
 
     td {
         background-color: var(--laranja);
         font-size: large;
+        padding: 4px;
     }
 
 }
@@ -181,11 +185,13 @@ nav img {
         padding: 8px;
         text-align: start;
         font-size: larger;
+        padding: 4px;
     }
 
     td {
         background-color: var(--laranja);
         font-size: large;
+        padding: 4px;
     }
 
 }
@@ -227,7 +233,7 @@ nav img {
 
 .imformações_de_index {
     border-bottom: 2px solid var(--cinza_claro);
-    padding-top: 0%;
+    padding-top: 0;
     margin-top: 56px;
     margin-left: 40px;
     h2 {
@@ -311,3 +317,136 @@ ol {
     margin-left: 18px;
 }
 
+
+
+.populacao_principal{
+    width: 100%;
+  h2{
+    border-top: var(--jade) dashed 4px;
+    margin-bottom: 0%;
+    width: 80%;
+    margin-left: 10%;
+  }
+  p{
+    margin-top: 20px;
+    border-bottom: var(--laranja) solid 4px;
+    width: 80%;
+    margin-left: 10%;
+    
+  }
+  i{
+    font-size: 30px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+}
+
+.lista_pref{
+    margin-bottom: 60px;
+    p{
+        border-bottom: #e07c46 solid 4px;
+        padding: 10px;
+        margin-left: 20%;
+        justify-content: center;
+        width: 60%;
+        display: flex;
+        background-color: #F7A072;
+        font-size: large;
+    }
+}
+
+.locais_map{
+    iframe{
+        width: 100%;
+        height: 45vh;
+    }
+}
+.info_esportes{
+    
+    width: 100%;
+    h2{
+        margin-top: 20px;
+        border-top: #e07c46 solid 3px;
+    }
+    iframe{
+    width: 100%;
+    height: 45vh;
+    border-bottom: var(--laranja) solid 3px;
+}
+}
+
+.titulo{
+   width: 100%;
+   margin-left: auto;
+   padding-left: 10px;
+}
+
+
+@media screen and (max-width: 600px){
+    nav,
+article,
+main,
+footer {
+    width: 100%;
+   ;
+
+}
+nav {
+    display: block;             /*  tira o flex e voltar para block */
+     text-align: center;       /* Centralizar */
+    span{                         /*envia o texto para baixo*/
+       display: block;
+    }
+    img{
+       width:50% ;
+    }
+   
+   }
+   main article {
+    padding-right: 10px;
+    padding-left: 10px;
+   }
+
+   .pontos_turisticos{
+    display: block;
+    .card{
+        width: 100%;
+    }
+   }
+footer{
+    padding: 0px 10px 10px 10px;
+}
+.titulo{
+    padding-left:10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+iframe{
+    padding: 10px;
+}
+
+.locais_map{
+    h1{
+        margin-left: auto;
+        margin-right: auto;
+    padding-left:10px;
+    padding-right: 10px;
+    width: auto;
+}
+}
+
+.tabela_cidades, .tabela_municipios{
+    padding: 0px 10px;
+}
+
+
+.imformações_de_index, .informaçoes_bairros {
+ 
+    margin-left:10px;
+    margin-right: 10px;
+ 
+}
+
+}
