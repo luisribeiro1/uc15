@@ -192,7 +192,27 @@ tr:hover {
     background-color: #f1f1f1;
 }
 
+.distancias{
+    section h2{
+        margin: 20px 0px;
+    }
+}
+.cidades{
+    margin-top: 30px;
+    h1{
+        margin: 10px 0px;
+    }
+    div{
+        box-shadow: 1px 3px 6px rgba(49, 48, 48, 0.61);
+        border-radius: 10px;
+        padding: 10px;
+    }
+}
+
 .bairros {
+    h1{
+        margin: 20px 0px;
+    }
     div {
         display: flex;
         justify-content: space-between;
@@ -222,6 +242,7 @@ tr:hover {
 .populacao {
     section {
         margin-bottom: 20px;
+        margin-top: 30px;
     }
 
     h1 {
@@ -335,6 +356,7 @@ tr:hover {
 .pontosturisticos {
     h1 {
         font-size: 50px;
+        margin-top: 30px;
         margin-bottom: 30px;
     }
 
@@ -372,8 +394,8 @@ tr:hover {
 
 .listaprefeitos {
     h1 {
-        text-align: center;
         margin-bottom: 50px;
+        margin-top: 30px;
     }
 }
 
@@ -402,6 +424,84 @@ tr:hover {
     article div {
         display: flex;
         justify-content: space-between;
+    }
+}
+
+
+
+
+
+/* Estilo do formulário */
+.contato {
+    background: #ffffff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contato form div {
+    margin-bottom: 15px;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contato input[type="text"],
+.contato input[type="email"],
+.contato input[type="number"],
+.contato textarea,
+.contato select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contato textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contato input[type="radio"] {
+    margin-right: 5px;
+}
+
+.contato input[type="submit"] {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contato input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .contato {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contato {
+        padding: 10px;
+    }
+
+    .contato input[type="submit"] {
+        width: 100%;
     }
 }
 
