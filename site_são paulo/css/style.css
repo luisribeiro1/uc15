@@ -268,11 +268,27 @@ td:nth-child(3){
 
 
 /* FORMATAÇÃO DA POPULAÇÃO*/
-.imagem_populacao{
- width: 100%;
- height: 30vh;
-}
+.Tabelap{
+  border-collapse: separate;       /*modo de espaçamento entre as celulas*/
+  width: 100%;
 
+  th{
+    background-color: var(--cinza_escuro);
+    color: var(--branco);
+    padding: 8px;
+    text-align: start;
+  }
+  th:nth-child(3){
+    text-align: end;
+  }
+ td{
+  background-color: var(--cinza_ccc);
+ }
+ td:nth-child(3){
+  text-align: end;
+
+ }
+}
   
   
 
@@ -280,14 +296,44 @@ td:nth-child(3){
 /* FORMATAÇÃO LOCALIZAÇÃO */
 iframe{
   width: 100%;
-  height: 35vh;
+  height: 30vh;
  }
  
  
  
  
- 
+ /* FORMATAÇÃO DA LISTA DE PREFEIOS */
+.TabelaL{
+  border-collapse: separate;       /*modo de espaçamento entre as celulas*/
+  width: 100%;
 
+  th{
+    background-color: var(--cinza_escuro);
+    color: var(--branco);
+    padding: 8px;
+    text-align: start;
+  }
+  th:nth-child(3){
+    text-align: end;
+  }
+ td{
+  background-color: var(--cinza_ccc);
+ }
+ td:nth-child(3){
+  text-align: end;
+
+ }
+ footer {
+  padding: 0px 10px 10px 10px;
+ }
+ .home {
+  display: block;
+  .card{
+    width: 100%;
+  }
+  
+}
+}
 
 
 
@@ -331,4 +377,40 @@ footer {
   i {
     color: var(--cinza_claro);
   }
+}
+
+
+
+/* Versão responsiva */ 
+@media screen and (max-width: 600px){
+  nav,
+ article,
+ main,
+ footer {
+  width: 100%;
+ 
+  /*Centralizar o site*/
+}
+nav{
+  display: block;                      /*tirar o flex e voltar para block*/
+  text-align: center;                  /*centralizar*/
+  span{
+    display: block;
+  }
+}
+ 
+article, main{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.imagens {
+  display: block;
+ 
+
+  img {
+    width: 100%;
+  }
+
+
+}
 }
